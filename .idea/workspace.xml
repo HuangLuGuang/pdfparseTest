@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d79e79d-8349-46ee-ac96-5326bf3971e4" name="Default Changelist" comment="" />
+    <list default="true" id="6d79e79d-8349-46ee-ac96-5326bf3971e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +17,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pdfparseTest$api.coverage" NAME="api Coverage Results" MODIFIED="1557933152491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2018.3/system/remote_sources/805718436/1967594767/wand" />
     <SUITE FILE_PATH="coverage/pdfparseTest$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1558056090201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pdfparseTest$3.coverage" NAME="3 Coverage Results" MODIFIED="1558319456163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pdfparseTest$3.coverage" NAME="3 Coverage Results" MODIFIED="1558345289388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$handeerstr.coverage" NAME="handeerstr Coverage Results" MODIFIED="1558073243545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$4.coverage" NAME="4 Coverage Results" MODIFIED="1558019646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pdfparseTest$123.coverage" NAME="123 Coverage Results" MODIFIED="1558323001625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1558018398644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$1.coverage" NAME="1 Coverage Results" MODIFIED="1557990721306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$shutil.coverage" NAME="shutil Coverage Results" MODIFIED="1557988587588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/virEnv/pdfparse/Lib" />
@@ -23,18 +30,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="378">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
-                <element signature="e#135#169#0" expanded="true" />
+                <element signature="e#135#162#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/image_0-1.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -56,10 +58,15 @@
       <find>size</find>
       <find>lll</find>
       <find>FCF</find>
+      <find>posion1</find>
     </findStrings>
     <replaceStrings>
       <replace>cv2.</replace>
+      <replace>position</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,16 +77,18 @@
         <option value="$PROJECT_DIR$/ROI.py" />
         <option value="$PROJECT_DIR$/images/1.txt" />
         <option value="$PROJECT_DIR$/handeerstr.py" />
+        <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="37" />
+    <option name="x" value="345" />
+    <option name="y" value="73" />
     <option name="width" value="1495" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,6 +138,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.3">
+    <configuration name="123" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pdfparseTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/123.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pdfparseTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,42 +250,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="opencv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pdfparseTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/opencv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.3" />
-      <item itemvalue="Python.opencv" />
       <item itemvalue="Python.4" />
       <item itemvalue="Python.ROI" />
       <item itemvalue="Python.handeerstr" />
+      <item itemvalue="Python.123" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.3" />
+        <item itemvalue="Python.123" />
         <item itemvalue="Python.handeerstr" />
         <item itemvalue="Python.ROI" />
         <item itemvalue="Python.4" />
-        <item itemvalue="Python.opencv" />
       </list>
     </recent_temporary>
   </component>
@@ -273,24 +282,24 @@
       <workItem from="1558014169293" duration="9465000" />
       <workItem from="1558063139335" duration="12245000" />
       <workItem from="1558169258807" duration="67000" />
-      <workItem from="1558312684628" duration="3982000" />
+      <workItem from="1558312684628" duration="18747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45833000" />
+    <option name="totallyTimeSpent" value="60598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="37" width="1495" height="960" extended-state="0" />
+    <frame x="345" y="73" width="1495" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17421603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17421603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2901619" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38029924" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -298,7 +307,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34371108" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34413967" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -324,35 +333,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image-1.jpg" />
-    <entry file="file://D:/virEnv/pdfparse/Lib/tempfile.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/virEnv/pdfparse/Lib/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="403" column="8" lean-forward="true" selection-start-line="403" selection-start-column="8" selection-end-line="403" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ec93e593-61c9-4fe8-9d3c-9c6a49df0f70-1.ppm" />
-    <entry file="file://$PROJECT_DIR$/images/295e4195-2aeb-49a4-82bc-9ba49d630265-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/index.jpg" />
-    <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/pyocr/tesseract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="391" column="4" selection-start-line="391" selection-start-column="4" selection-end-line="391" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/8f39bf28-d2db-4b34-bf4f-e6c23fd14303_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/0277ca83-4b5b-4d77-879e-32932bb026b5_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/f45abeed-1f5f-483e-bc58-a42a10ab6a79_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/ee63e317-5932-4e60-800a-cecd45f2b9e0_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/b1720dc6-44dd-4df2-9355-1461447e0192_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/aa7250b1-57f5-4933-929f-0cbeb5233c38_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/27405b27-4130-42f5-b6d0-8f89734e7046_0-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/97ef60ad-df9c-47f9-a2c0-26858dc97c64_0-1.jpg" />
     <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -424,13 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-895082675/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="4754" column="8" selection-start-line="4754" selection-start-column="8" selection-end-line="4754" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/b787018c-a744-4088-8a47-9e40cc6324be_2-3.jpg" />
     <entry file="file://$PROJECT_DIR$/images/b787018c-a744-4088-8a47-9e40cc6324be_1-2.jpg" />
     <entry file="file://$PROJECT_DIR$/images/b787018c-a744-4088-8a47-9e40cc6324be_0-1.jpg" />
@@ -443,13 +416,6 @@
     <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/PIL/ImageEnhance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330" />
-      </provider>
-    </entry>
-    <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/pdf2image/pdf2image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
       </provider>
     </entry>
     <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/PIL/Image.py">
@@ -479,37 +445,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/pdf2image/pdf2image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="220">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="e#150#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.jpg">
+    <entry file="file://$PROJECT_DIR$/fcf3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/11.jpg">
+    <entry file="file://$PROJECT_DIR$/fcf2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.jpg">
+    <entry file="file://$PROJECT_DIR$/fcf1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_0-1.jpg">
+    <entry file="file://$PROJECT_DIR$/fcf4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcf5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posion1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fcf6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-895082675/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="3760" column="4" lean-forward="true" selection-start-line="3760" selection-start-column="4" selection-end-line="3760" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image_0-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/positionHead.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="378">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
-            <element signature="e#135#169#0" expanded="true" />
+            <element signature="e#135#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
