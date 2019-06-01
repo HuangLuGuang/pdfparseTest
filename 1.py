@@ -35,7 +35,7 @@ for img in req_image:
     text = tool.image_to_string(
         PI.open(io.BytesIO(img)),
         lang = 'chs',
-        builder=pyocr.builders.TextBuilder()
+        builder=pyocr.builders.TextBnuilder()
     )
     final_text.append(text)
 

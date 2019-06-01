@@ -18,13 +18,6 @@ def print_run_time(func):
         print('current Function [%s] run time is %.2f' % (func.__name__ ,time.time() - local_time))
     return wrapper
 
-# 处理识别后的字符
-def handlerString(str):
-    str = re.sub(u"\\[.*?]", "", str)
-    result = str.replace("lll", '').replace("兰", '').replace("|", '').replace("_", '').replace("[",'').replace("}", '').replace("‖", '')\
-        .replace("OUtTToL", 'OUTTOL').replace("Pe", '').replace("R 轴 庞 弓", "同轴度4").replace("木", "米")
-    return result
-
 
 def ocr_test(image):
     """
@@ -77,16 +70,49 @@ def firstPage(image):
     positionTitle = cutImg(image, (1690, 2211, 2005, 2273))
     position1 = cutImg(image, (215, 2859, 2480, 3103))
     position1Title = cutImg(image, (1690, 2675, 2005, 2743))
-    position2 = cutImg(image, (215, 3325, 2480, 3573))
+    position2 = cutImg(image, (215, 3325, 2480, 3578))
     position2Title = cutImg(image, (1690, 3143, 2005, 3207))
     position, position1, position2 = map(wipLine, (position, position1, position2))
+    position.save('position.jpg')
+    position2.save('position2.jpg')
     res = map(ocr_test, (fcf1, fcf2, fcf3, fcf4, fcf5, fcf6,positionTitle, position, position1Title, position1, position2Title, position2))
     for text in res:
         print(text)
 
 
+def cutRowImage(img):
+    # 处理图片
+    width = img.size[0]
+    height = img.size[1]
+    h = 0
+    while h + 85 < height:
+        print(h)
+        h = h + 85
+        res = cutImg(img, (0, h, 3300, h + 85))
+        res.save(str(h) + '.jpg')
+
+def handlerImage(img):
+    # img = cutImg(img, (190,500,2380, 3547))
+    width = img.size[0]
+    height = img.size[1]
+    for i in range(width):
+        for j in range(height):
+            data = img.getpixel((i, j))
+            R = data[0]
+            G = data[1]
+            B = data[2]
+            if (R==G==B and R < 200) or (R - G > 20 and R - B > 35):
+                img.putpixel((i, j), (0, 0, 0))
+            else:
+                img.putpixel((i, j), (255, 255, 255))
+
+    img.save('handler.png')
+    return img
+
+
 if __name__ == '__main__':
     images = convert_from_path('1.PDF', dpi=400, thread_count=3, fmt="png", output_folder='images', output_file="image")
     firstPage(images[0])
-
-
+    # img = handlerImage(images[0])
+    # str = ocr_test(img)
+    # print(str)
