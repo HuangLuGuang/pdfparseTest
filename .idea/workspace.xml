@@ -2,204 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d79e79d-8349-46ee-ac96-5326bf3971e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/90%.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cut/yield1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00250B  19.03.25.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00306B   19.04.12 Æ¬ .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00317B   19.04.13 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00328A    19.03.23.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00330B    19.03.27.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00358B.     19.04.22      .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00364B    19.04.12  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00370B  19.04.09  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/00377A       19.04.29     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10003B  19.5.5    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10054B    19.5.5    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10066B                19.05.07     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10068B   19.5.5    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10074B   19.03.28.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10084B   19.04.30    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10095B     19.03.19.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10108B                19.05.07     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10132B   19.5.5    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10133B  19.03.28.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10146B     19.03.19.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/10157B     19.5.7     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/116160       19.5.15     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/116238  19.04.10  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/116260      19.03.26.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/116329     19.03.25.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.10 20099B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.11 20109B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.12    30798B  1503 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.12   20006B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.12   20133B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.13    20005B.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.13   20047B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.13  20119B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.13  20142BÈý´Î三次 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.13 20099B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.14  20146B.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.15   20033A    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.15  10078B.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.18     22492A   1403  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.18    22350B 1403  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.19    22130B 1401  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.19    22398B 1403  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.19    30034B   1409  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.19    30159B 1410  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.20    22444A 1403 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.20    30159B   1410  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.20   22439B  1403 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.21  30113A 1410 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.21  30125B  1410 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.22  30182B  1410 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.22  30573B  1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.23   30440B  1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.24   30593A  1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.24   30608A  1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.27    30527B  1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.27    30961A  1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.28    30605B 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.28  10074B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.29    30967B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.29  00073A    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.29  116198    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.30   30930B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.31   30296A 1411 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.31   30427B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.31   30493B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.03.31  30425A 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.02   116255         .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.02   30602A 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.03   20313B         .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.03  20304A   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.03  20407B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.04   20072B    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.04   20424B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.08  116191  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.08  20299B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.08  30450B 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.08  30574B 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.08  30588B 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.09   30577A 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.09   30763B 1503  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.10   30741B 1502 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.11    30442A 1412  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.12    00360C.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.12   24008B 1407 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.15    30289A 1411 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.15    30498B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.16    20284B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.16    50053B 1702 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.16    50083B 1705 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.17    20145A.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.17    30422B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.17    50049B 1702 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.18       00369A.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.18       20503B.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.18    30495B 1412   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.18    50030B 1703  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.18    50043B 1702   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.19    30548B 1501   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.20   50071B 1705   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.21    30478B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.21   30402A 1412  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.22   30482A 1412  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.23    20169B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.24    00374B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.24   30580B 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.25    20065A   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.25    20164B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.25   30568A 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.26    20274B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.26    30931B 1503  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.26   00335B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.26   20176A   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.26   30646B 1501  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.04.27    20226B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.04     30350B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.04   30335B  1411 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.04  10065A .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.05     30364B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.07   10142B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.07   20408B  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.08      30601A 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.08     30567B 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.08     30622B 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.09    30634B 1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.11   30405B 1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.13     30264A   1411.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.13     30411B  1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.13    30210B  1411 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.13   30530B  1501 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.14    30334B  1411    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.14   30332B   1411    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.15    30903B   1503    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.15  30913A   1504    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.16 30830B 1503  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.20    22457B  1403   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.20    30982B   1504    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.20   22445a 1403 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.21    30886B  1503   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.22    22513B   1404    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.24    30500B  1501    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.25    30592A  1501    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.25    30753A  1503    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.26    30711B  1502    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.27    30719B   1502   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.05.27   30706B 1502.   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.16  116168         .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.19  20541B        .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.20   10011B .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.20   10018B    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.22        116169 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.22       116216 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.22      116239 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.25       10105A .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.25       116163     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.27          20163B    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/19.5.27         20175B   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20028B   19.04.13 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20125B   19.03.18.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20173B .     19.04.22      .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20181B   19.04.15 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20184B     19.5.27         .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.28     31004B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.28    30874B 1503 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.28    30947B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.29 30999B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.30 30912A 1503 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.4.30 30959B 1504 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/2019.5.4   30433A  1412 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20240A         19.05.13 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20240A       19.05.14 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20250B          19.05.09   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20263B   19.04.15 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20285B       19.5.6     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20311B       19.04.29     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20380B        19.05.10   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20388B      19.04.12  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20393B         19.5.15     .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20462B    19.04.10  .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20500B       19.05.10   .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/20525B          19.05.08    .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/22448B 1403       19.03.17.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/30694B 1502       19.03.15.PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdfsample/ts201808358   19.3.16 .PDF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webserviceDemo/demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webserviceDemo/demo02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webserviceDemo/requements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.PDF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_0-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_2-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/90%.py" beforeDir="false" afterPath="$PROJECT_DIR$/90%.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfsample/19.03.13  20142BÈý´Î三次 .PDF" beforeDir="false" afterPath="$PROJECT_DIR$/cut/19.03.13  20142BÈý´Î三次 .PDF" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,60 +22,40 @@
     <SUITE FILE_PATH="coverage/pdfparseTest$api.coverage" NAME="api Coverage Results" MODIFIED="1557933152491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2018.3/system/remote_sources/805718436/1967594767/wand" />
     <SUITE FILE_PATH="coverage/pdfparseTest$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1558056090201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$4.coverage" NAME="4 Coverage Results" MODIFIED="1558019646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pdfparseTest$90_.coverage" NAME="90% Coverage Results" MODIFIED="1559384613142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pdfparseTest$90_.coverage" NAME="90% Coverage Results" MODIFIED="1559553760871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1558018398644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$jsonShumei.coverage" NAME="jsonShumei Coverage Results" MODIFIED="1559132916695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$demo02.coverage" NAME="demo02 Coverage Results" MODIFIED="1558923633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webserviceDemo" />
     <SUITE FILE_PATH="coverage/pdfparseTest$1.coverage" NAME="1 Coverage Results" MODIFIED="1557990721306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$shutil.coverage" NAME="shutil Coverage Results" MODIFIED="1557988587588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/virEnv/pdfparse/Lib" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="280" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5608563">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1122">
-                  <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-                  <folding>
-                    <element signature="e#135#163#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/90%.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#136#164#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/3.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#135#163#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/90%.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2926">
+              <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+              <folding>
+                <element signature="e#136#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -290,6 +76,9 @@
       <find>FCF</find>
       <find>posion1</find>
       <find>startX</find>
+      <find>)</find>
+      <find>坂</find>
+      <find>run</find>
     </findStrings>
     <replaceStrings>
       <replace>cv2.</replace>
@@ -316,12 +105,13 @@
         <option value="$PROJECT_DIR$/jsonShumei.py" />
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/90%.py" />
+        <option value="$PROJECT_DIR$/result.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="25" />
+    <option name="x" value="36" />
+    <option name="y" value="50" />
     <option name="width" value="1474" />
     <option name="height" value="950" />
   </component>
@@ -341,7 +131,7 @@
             <path>
               <item name="pdfparseTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdfparseTest" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="pdfsample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,6 +148,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\pdfparseTest\cut" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\code\pdfparseTest" />
     </key>
@@ -497,10 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.90%" />
+        <item itemvalue="Python.90%" />
         <item itemvalue="Python.3" />
         <item itemvalue="Python.jsonShumei" />
         <item itemvalue="Python.demo01" />
-        <item itemvalue="Python.yield1" />
       </list>
     </recent_temporary>
   </component>
@@ -526,24 +319,27 @@
       <workItem from="1558917783317" duration="19812000" />
       <workItem from="1559127889553" duration="5672000" />
       <workItem from="1559203923295" duration="614000" />
-      <workItem from="1559376278147" duration="8283000" />
+      <workItem from="1559376278147" duration="9837000" />
+      <workItem from="1559439665689" duration="1014000" />
+      <workItem from="1559442033542" duration="10720000" />
+      <workItem from="1559521200455" duration="8096000" />
+      <workItem from="1559563556398" duration="735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105251000" />
+    <option name="totallyTimeSpent" value="127370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="25" width="1474" height="950" extended-state="0" />
+    <frame x="36" y="50" width="1474" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17043847" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990619" visible="true" weight="0.208628" />
+      <window_info id="Structure" order="1" sideWeight="0.50093806" side_tool="true" weight="0.20579915" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992928" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992928" weight="0.56186867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989899" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,15 +348,17 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4992928" weight="0.34848484" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4992928" weight="0.34743875" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007072" side_tool="true" weight="0.34848484" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32850778" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32956153" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,9 +383,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1530.jpg" />
-    <entry file="file://$PROJECT_DIR$/1615.jpg" />
-    <entry file="file://$PROJECT_DIR$/1870.jpg" />
     <entry file="file://$PROJECT_DIR$/1700.jpg" />
     <entry file="file://$PROJECT_DIR$/85.jpg" />
     <entry file="file://$PROJECT_DIR$/170.jpg" />
@@ -604,18 +399,12 @@
     <entry file="file://$PROJECT_DIR$/1105.jpg" />
     <entry file="file://$PROJECT_DIR$/1190.jpg" />
     <entry file="file://$PROJECT_DIR$/1275.jpg" />
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/position.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png" />
+    <entry file="file://$PROJECT_DIR$/position.jpg" />
     <entry file="file://$PROJECT_DIR$/handler.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/position2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/position2.jpg" />
     <entry file="file://C:/Program Files/Python36/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -637,46 +426,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webserviceDemo/demo02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#140#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webserviceDemo/demo01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#140#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webserviceDemo/requements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsonShumei.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_0-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/webserviceDemo/demo02.py" />
+    <entry file="file://$PROJECT_DIR$/webserviceDemo/demo01.py" />
+    <entry file="file://$PROJECT_DIR$/webserviceDemo/requements.txt" />
+    <entry file="file://$PROJECT_DIR$/jsonShumei.py" />
+    <entry file="file://$PROJECT_DIR$/images/image_0-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/4.py" />
     <entry file="file://$PROJECT_DIR$/ROI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -694,30 +449,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/9.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
+        <state relative-caret-position="154">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="e#135#163#0" expanded="true" />
@@ -725,20 +459,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/4.png">
+    <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/0.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/images/0.png" />
+    <entry file="file://$PROJECT_DIR$/images/1.png" />
+    <entry file="file://$PROJECT_DIR$/images/2.png" />
+    <entry file="file://$PROJECT_DIR$/images/3.png" />
+    <entry file="file://$PROJECT_DIR$/images/4.png" />
+    <entry file="file://$PROJECT_DIR$/images/5.png" />
+    <entry file="file://$PROJECT_DIR$/images/6.png" />
+    <entry file="file://$PROJECT_DIR$/images/7.png" />
+    <entry file="file://$PROJECT_DIR$/images/8.png" />
+    <entry file="file://$PROJECT_DIR$/images/9.png" />
+    <entry file="file://$PROJECT_DIR$/images/10.png" />
+    <entry file="file://$PROJECT_DIR$/images/11.png" />
+    <entry file="file://$PROJECT_DIR$/images/12.png" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-895082675/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3757" column="6" selection-start-line="3757" selection-start-column="6" selection-end-line="3757" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/image_2-3.png">
       <provider selected="true" editor-type-id="images" />
@@ -746,16 +488,20 @@
     <entry file="file://$PROJECT_DIR$/images/image_1-2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/90%.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="102" column="19" lean-forward="true" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        <state relative-caret-position="2926">
+          <caret line="137" column="22" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
           <folding>
             <element signature="e#136#164#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
