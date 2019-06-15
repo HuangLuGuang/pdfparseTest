@@ -8,9 +8,10 @@ from pdf2image import convert_from_path
 import time
 import pytesseract
 import traceback
+import json
 
-#计算时间函数
-
+measuredict = {}
+pdfInfo = {}
 
 def print_run_time(func):
     def wrapper(*args, **kw):
@@ -77,7 +78,7 @@ def wipLine(img):
 
 
 
-def handlerstr(str):
+def handlerstr(str, title = False):
     # res = str.replace("园","圆").replace("轻","轴").replace("札","系").replace(";",")").replace(",",")").replace("Zz","Z").replace("轲","轴")
     field_list = [
         ("园", "圆"),
@@ -98,7 +99,7 @@ def handlerstr(str):
     try:
         for field in field_list:
             str = str.replace(field[0], field[1])
-        if str[0] == '2':
+        if str[0] == '2' and title is False:
             str = str.replace("2", "Z", 1)
     except Exception:
         # log.error(traceback.print_exc())
@@ -137,34 +138,41 @@ def firstPage(image):
         "serialnum": (1901,283, 2209,369),  # 序列号
         "operator": (2707,259, 2977,377),  # 操作人
     }
-    pdfInfo = {}
     for k, v in scpoe.items():
         img = cutImg(img=image, coordinate=v)
-        text = handlerstr(ocr_test(img))
-        print(text)
+        text = handlerstr(ocr_test(img), title=True)
         pdfInfo[k] = text
 
     testposition = cutTestPosition(image = image, times= 12, startX = 1500, startY=414, endX = 2160, endY = 493, space = 283)
     testvalue = cutTestPosition(image = image, times= 12, startX = 450, startY=596, endX = 2419, endY = 681, space = 283)
 
-    # measuredict = {}
     #
-    # for i in range(12):
-    #     k = ocr_test(testposition[i])
-    #     v = ocr_test(testvalue[i])
-    #     measuredict[k] = v
+    for i in range(12):
+        k = ocr_test(testposition[i])
+        k = handlerstr(k)
+        v = ocr_test(testvalue[i])
+        try:
+            res = v.split(" ")
+            keys = ["NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
+            res = zip(keys, res)
+            res = dict(res)
+        except Exception:
+            pass
+        measuredict[k] = res
     #
     # print(measuredict)
     # print(pdfInfo)
 
-    testposition = map(ocr_test, testposition)
-    for item in testposition:
-        temp = handlerstr(item)
-        print(temp)
 
-    for index, img in enumerate(testvalue):
-        value = ocr_test(img, lang="eng")
-        print(value)
+
+    # testposition = map(ocr_test, testposition)
+    # for item in testposition:
+    #     temp = handlerstr(item)
+    #     print(temp)
+    #
+    # for index, img in enumerate(testvalue):
+    #     value = ocr_test(img, lang="eng")
+    #     print(value)
 
 
 @print_run_time
@@ -172,32 +180,68 @@ def secondPage(image):
 
     testposition = cutTestPosition(image = image, times= 13, startX = 1500, startY=90, endX = 2160, endY = 169, space = 283)
 
-    res = map(ocr_test, testposition)
-    res = map(handlerstr, res)
-    for text in res:
-        print(text)
+    # res = map(ocr_test, testposition)
+    # res = map(handlerstr, res)
+    # for text in res:
+    #     print(text)
 
     testvalue = cutTestPosition(image=image, times=13, startX=450, startY=273, endX=2419, endY=359, space=283)
 
-    for img in testvalue:
-        res = ocr_test(img, lang="eng")
-        print(res)
+
+    for i in range(12):
+        k = ocr_test(testposition[i])
+        k = handlerstr(k)
+        v = ocr_test(testvalue[i])
+        try:
+            res = v.split(" ")
+            keys = ["AX", "NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
+            res = zip(keys, res)
+            res = dict(res)
+        except Exception:
+            pass
+        measuredict[k] = res
+
+    # for img in testvalue:
+    #     res = ocr_test(img, lang="eng")
+    #     print(res)
 
 
 
 if __name__ == '__main__':
 
     import os
+
+    # 某个pdf sample
     # images = convert_from_path('pdfsample/19.03.10 20099B .PDF', dpi=400, thread_count=3, fmt="png", output_folder='images', output_file="image")
     # firstPage(images[0])
     # secondPage(images[1])
     # secondPage(images[2])
 
+    # parseResult = {
+    #     "pdfinfo": pdfInfo,
+    #     "measure":measuredict
+    # }
+    # with open('parseResult.json', 'w', encoding="utf-8") as f:
+    #     parseResult = json.dumps(parseResult, ensure_ascii = False, indent=4)
+    #     print(parseResult)
+    #     f.write(parseResult)
+    #
+    #
     pathList = os.listdir('pdfsample')
     for path in pathList:
         images = convert_from_path('pdfsample/' + path, dpi=400, thread_count=3, fmt="png",)
         print("file name-{}".format(path))
+        pdfInfo = {}
+        measuredict = {}
         firstPage(images[0])
         secondPage(images[1])
         secondPage(images[2])
+        parseResult = {
+            "pdfinfo": pdfInfo,
+            "measure": measuredict
+        }
+        with open('parseResult/' + path.replace(".PDF","")+".json", 'w', encoding="utf-8") as f:
+            parseResult = json.dumps(parseResult, ensure_ascii=False, indent=4)
+            print(parseResult)
+            f.write(parseResult)
         print("-" * 100)
