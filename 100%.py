@@ -150,20 +150,25 @@ def firstPage(image):
 
     #
     for i in range(12):
-        k = ocr_test(testposition[i])
-        k = handlerstr(k)
-        if k is None or k == '' or k == ' ':
-            return
-        v = ocr_test(testvalue[i])
-        v = "M " + v
-        try:
-            res = v.split(" ")
-            keys = ["AX", "NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
-            res = zip(keys, res)
-            res = dict(res)
-        except Exception:
-            pass
-        measuredict[k] = res
+        img = testposition[i]
+        img.save("cut/positon/" + str(i) + ".png")
+        img = testvalue[i]
+        img.save("cut/testvalue/" + str(i) + ".png")
+    # for i in range(12):
+    #     k = ocr_test(testposition[i])
+    #     k = handlerstr(k)
+    #     if k is None or k == '' or k == ' ':
+    #         return
+    #     v = ocr_test(testvalue[i])
+    #     v = "M " + v
+    #     try:
+    #         res = v.split(" ")
+    #         keys = ["AX", "NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
+    #         res = zip(keys, res)
+    #         res = dict(res)
+    #     except Exception:
+    #         pass
+    #     measuredict[k] = res
     #
     # print(measuredict)
     # print(pdfInfo)
@@ -192,22 +197,27 @@ def secondPage(image):
 
     testvalue = cutTestPosition(image=image, times=13, startX=450, startY=273, endX=2419, endY=359, space=283)
 
-
     for i in range(13):
-        k = ocr_test(testposition[i])
-        k = handlerstr(k)
-        if k is None or k == '' or k == ' ':
-            return
-        v = ocr_test(testvalue[i])
-        v = "M " + v
-        try:
-            res = v.split(" ")
-            keys = ["AX", "NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
-            res = zip(keys, res)
-            res = dict(res)
-        except Exception:
-            pass
-        measuredict[k] = res
+        img = testposition[i]
+        img.save("cut/positon/" + str(i) + ".png")
+        img = testvalue[i]
+        img.save("cut/testvalue/" + str(i) + ".png")
+
+    # for i in range(13):
+    #     k = ocr_test(testposition[i])
+    #     k = handlerstr(k)
+    #     if k is None or k == '' or k == ' ':
+    #         return
+    #     v = ocr_test(testvalue[i])
+    #     v = "M " + v
+    #     try:
+    #         res = v.split(" ")
+    #         keys = ["AX", "NOMINAL", "+TOL", "-TOL", "MEAS", "DEV", "OUTTOL"]
+    #         res = zip(keys, res)
+    #         res = dict(res)
+    #     except Exception:
+    #         pass
+    #     measuredict[k] = res
 
     # for img in testvalue:
     #     res = ocr_test(img, lang="eng")
@@ -220,34 +230,31 @@ if __name__ == '__main__':
     import os
 
     # 某个pdf sample
-    filename = "19.03.10 20099B .PDF"
-    images = convert_from_path('pdfsample/' + filename, dpi=400, thread_count=3, fmt="png",
+    images = convert_from_path('pdfsample/ts201808358   19.3.16 .PDF', dpi=400, thread_count=3, fmt="png",
                                output_folder='images', output_file="image")
-    startT = time.time()
+    # startT = time.time()
     for index, img in enumerate(images):
         if index == 0:
             firstPage(img)
         else:
             secondPage(img)
-    endT = time.time()
-    parseResult = {
-        "meta": {
-            "filename": filename,
-            "parseDate": time.strftime("%Y-%m-%d %H:%M"),
-            "elapsed": "%.2fs" % (endT - startT),
-            "ip": "",
-            "mac": "",
-            "provider": "Beijing MaboTech Co., Ltd. ",
-            "version": "1.3.0",
-
-    },
-        "pdfinfo": pdfInfo,
-        "measure":measuredict
-    }
-    with open('parseResult.json', 'w', encoding="utf-8") as f:
-        parseResult = json.dumps(parseResult, ensure_ascii = False, indent=4)
-        print(parseResult)
-        f.write(parseResult)
+    # endT = time.time()
+    # parseResult = {
+    #     "meta": {
+    #         "parseDate": time.strftime("%Y-%m-%d %H:%M"),
+    #         "provider":"Beijing MaboTech Co., Ltd. ",
+    #         "elapsed": "%.2fs" % (endT - startT),
+    #         "version": "1.3.0",
+    #         "ip":"",
+    #         "mac":""
+    #     },
+    #     "pdfinfo": pdfInfo,
+    #     "measure":measuredict
+    # }
+    # with open('parseResult.json', 'w', encoding="utf-8") as f:
+    #     parseResult = json.dumps(parseResult, ensure_ascii = False, indent=4)
+    #     print(parseResult)
+    #     f.write(parseResult)
 
     # pathList = os.listdir('pdfsample')
     # for path in pathList:

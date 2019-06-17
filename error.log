@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------------------------------
+file name-19.03.28  10074B  .PDF
+current Function [firstPage] run time is 28.74
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+None
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+None
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 102, in handlerstr
+    if str[0] == '2' and title is False:
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "F:/code/pdfparseTest/90%.py", line 238, in <module>
+    secondPage(images[2])
+IndexError: list index out of range
+current Function [secondPage] run time is 17.02
