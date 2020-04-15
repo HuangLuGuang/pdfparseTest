@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d79e79d-8349-46ee-ac96-5326bf3971e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cut/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/cut/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseResult.json" beforeDir="false" afterPath="$PROJECT_DIR$/parseResult.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +34,7 @@
     <SUITE FILE_PATH="coverage/pdfparseTest$ROI.coverage" NAME="ROI Coverage Results" MODIFIED="1561106926297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$4.coverage" NAME="4 Coverage Results" MODIFIED="1558019646425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$100_.coverage" NAME="100% Coverage Results" MODIFIED="1560737027214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pdfparseTest$90_.coverage" NAME="90% Coverage Results" MODIFIED="1561031119154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pdfparseTest$90_.coverage" NAME="90% Coverage Results" MODIFIED="1562036619919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$opencv.coverage" NAME="opencv Coverage Results" MODIFIED="1558018398644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$jsonShumei.coverage" NAME="jsonShumei Coverage Results" MODIFIED="1559132916695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pdfparseTest$demo02.coverage" NAME="demo02 Coverage Results" MODIFIED="1558923633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webserviceDemo" />
@@ -35,19 +47,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parseResult.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/100%.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5522">
-              <caret line="256" column="30" selection-start-line="256" selection-start-column="30" selection-end-line="256" selection-end-column="30" />
+            <state relative-caret-position="220">
+              <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/90%.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="1958">
+              <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
               <folding>
                 <element signature="e#136#164#0" expanded="true" />
               </folding>
@@ -64,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ROI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -103,10 +111,14 @@
       <find>print(</find>
       <find>Y1</find>
       <find>.</find>
+      <find>Z4.1.1</find>
+      <find>handler</find>
+      <find>Y轴</find>
     </findStrings>
     <replaceStrings>
       <replace>cv2.</replace>
       <replace>position</replace>
+      <replace>(Y轴)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -129,16 +141,16 @@
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$PROJECT_DIR$/result.txt" />
         <option value="$PROJECT_DIR$/error.log" />
-        <option value="$PROJECT_DIR$/parseResult.json" />
         <option value="$PROJECT_DIR$/100%.py" />
-        <option value="$PROJECT_DIR$/90%.py" />
         <option value="$PROJECT_DIR$/ROI.py" />
+        <option value="$PROJECT_DIR$/90%.py" />
+        <option value="$PROJECT_DIR$/parseResult.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="37" />
+    <option name="x" value="55" />
+    <option name="y" value="58" />
     <option name="width" value="1474" />
     <option name="height" value="950" />
   </component>
@@ -155,6 +167,11 @@
             <path>
               <item name="pdfparseTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdfparseTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdfparseTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdfparseTest" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ROI">
+  <component name="RunManager" selected="Python.90%">
     <configuration name="100%" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pdfparseTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,16 +320,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.100%" />
       <item itemvalue="Python.3" />
-      <item itemvalue="Python.jsonShumei" />
       <item itemvalue="Python.90%" />
       <item itemvalue="Python.ROI" />
-      <item itemvalue="Python.100%" />
+      <item itemvalue="Python.jsonShumei" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ROI" />
         <item itemvalue="Python.90%" />
+        <item itemvalue="Python.ROI" />
         <item itemvalue="Python.100%" />
         <item itemvalue="Python.90%" />
         <item itemvalue="Python.3" />
@@ -356,16 +373,20 @@
       <workItem from="1561030807242" duration="6000" />
       <workItem from="1561031114733" duration="23000" />
       <workItem from="1561103068202" duration="1016000" />
+      <workItem from="1561217832089" duration="600000" />
+      <workItem from="1562036596614" duration="1855000" />
+      <workItem from="1571750740178" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157228000" />
+    <option name="totallyTimeSpent" value="159705000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="37" width="1474" height="950" extended-state="0" />
+    <frame x="55" y="58" width="1474" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990619" visible="true" weight="0.23620933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990619" visible="true" weight="0.2476934" />
       <window_info id="Structure" order="1" sideWeight="0.50093806" side_tool="true" weight="0.20579915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,10 +400,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4992928" weight="0.35687265" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4992928" weight="0.3556116" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007072" side_tool="true" weight="0.34848484" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32850778" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32954547" />
+      <window_info anchor="right" id="aiXcoder" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,9 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/0.png" />
     <entry file="file://$PROJECT_DIR$/images/1.png" />
     <entry file="file://$PROJECT_DIR$/images/2.png" />
@@ -518,37 +537,9 @@
     <entry file="file://$PROJECT_DIR$/cut/12.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/error.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1633" column="6" selection-start-line="1633" selection-start-column="4" selection-end-line="1633" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error.log" />
     <entry file="file://$PROJECT_DIR$/cut/0.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parseResult.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100%.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5522">
-          <caret line="256" column="30" selection-start-line="256" selection-start-column="30" selection-end-line="256" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://D:/virEnv/pdfparse/Lib/site-packages/pdf2image/pdf2image.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -557,10 +548,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-562">
+          <caret line="1633" column="6" selection-start-line="1633" selection-start-column="4" selection-end-line="1633" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parseResult.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/image_0-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/90%.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="1958">
+          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
           <folding>
             <element signature="e#136#164#0" expanded="true" />
           </folding>
@@ -570,10 +578,17 @@
     <entry file="file://$PROJECT_DIR$/ROI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100%.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
